@@ -149,7 +149,7 @@ if __name__=="__main__":
 El_1=input('Enter Solute Element ')
 El_2=input('Enter SolventElement ')
 CS=float(input('Enter concentration of solute '))
-E1Data, E2Data = file_read("C:\\Users\\User\\Desktop\\DATASET.txt", El_1,
+E1Data, E2Data = file_read("Path of text file containing experimental data", El_1,
 El_2)
 P_Val =P(E1Data,E2Data)
 RtoP_Val=RtoP(E1Data,E2Data)
